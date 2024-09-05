@@ -38,7 +38,8 @@ class SessionExpAuth(SessionAuth):
         return session_id
 
     def user_id_for_session_id(self, session_id=None) -> str:
-        """this will ret the user id 
+        """
+        this will ret the user id
         """
         if session_id in self.user_id_by_session_id:
             session_dict = self.user_id_by_session_id[session_id]
