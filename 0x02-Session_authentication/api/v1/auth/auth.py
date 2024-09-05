@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module is for manage the usr authAuthentication module for the API.
+This module is for manage the usr authAuthentication module for the api.
 """
 import os
 import re
